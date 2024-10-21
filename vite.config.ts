@@ -11,7 +11,15 @@ export default defineConfig(({ mode }) => ({
   resolve: {
     mainFields: ['module'],
   },
-  plugins: [analog()],
+  plugins: [analog({
+    nitro: {
+      routeRules: {
+        '/api/**' : {
+          cors: true,
+        }
+      }
+    }
+  })],
   test: {
     globals: true,
     environment: 'jsdom',

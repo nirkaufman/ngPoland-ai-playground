@@ -1,0 +1,17 @@
+POST http://localhost:5173/api/chat
+Content-Type: application/json
+
+{
+  "message": "Hello, who are you?"
+}
+
+###
+
+POST http://localhost:5173/api/search
+Content-Type: application/json
+
+{
+  "query": "Find me a Kaufman"
+}
+
+
