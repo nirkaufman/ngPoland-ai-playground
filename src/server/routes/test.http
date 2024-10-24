@@ -14,4 +14,10 @@ Content-Type: application/json
   "query": "Find me a Kaufman"
 }
 
+###
+POST http://localhost:5173/api/docs
+Content-Type: application/json
 
+{
+  "query": "Tell me about nir kaufman"
+}
