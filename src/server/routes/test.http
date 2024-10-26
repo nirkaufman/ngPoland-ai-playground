@@ -21,3 +21,11 @@ Content-Type: application/json
 {
   "query": "Tell me about nir kaufman"
 }
+
+###
+POST http://localhost:5173/api/tools
+Content-Type: application/json
+
+{
+  "query": "Distance between paris and london"
+}
